@@ -1,10 +1,14 @@
-[ios]
-51.137.78.63
-51.144.175.30
-
+[k8s-master]
+10.0.0.180
+10.0.0.181
+10.0.0.182
+[k8s-node]
+10.0.0.183
+10.0.0.184
+10.0.0.185
 [linux]
-host1 ansible_host=172.26.84.81
+host1 ansible_host=10.0.0.180
 
 [linux:vars]
-ansible_user=vagrant
-#ansible_ssh_pass=vagrant
+ansible_user=root
+#ansible_ssh_pass=123456
